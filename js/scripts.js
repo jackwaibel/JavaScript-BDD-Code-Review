@@ -1,3 +1,9 @@
 var bottlesSong = function(bottles) {
-  return false;
-};
+  if (bottles -=1) {
+      return true;
+    } else if (bottles === 99) {
+      return true;
+    } else {
+      return false;
+    }
+  };
